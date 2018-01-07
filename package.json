@@ -1,0 +1,9 @@
+{
+  "name": "aurelia-boiler-plate",
+  "version": "1.0.0",
+  "description": "A simple clean boiler plate for a Aurelia web application",
+  "main": "index.js",
+  "repository": "git@github.com:masterjeef/aurelia-boiler-plate.git",
+  "author": "Jeff Linton <jslinton44@gmail.com>",
+  "license": "MIT"
+}
