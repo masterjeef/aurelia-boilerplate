@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"steoates.autoimport",
+		"donjayamanne.githistory",
+		"eamodio.gitlens",
+		"shinnn.stylelint",
+		"eg2.tslint",
+		"kisstkondoros.typelens",
+		"rbbit.typescript-hero",
+		"pflannery.vscode-versionlens"
+	]
+}
