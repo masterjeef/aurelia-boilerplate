@@ -2,16 +2,21 @@
   "name": "aurelia-boiler-plate",
   "version": "1.0.0",
   "description": "A simple clean boiler plate for a Aurelia web application",
-  "main": "index.js",
+  "main": "index.html",
   "repository": "git@github.com:masterjeef/aurelia-boiler-plate.git",
   "author": "Jeff Linton <jslinton44@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open -p",
+    "build": "webpack -p --no-color"
+  },
   "devDependencies": {
     "aurelia-webpack-plugin": "^2.0.0-rc.5",
     "fs": "^0.0.1-security",
     "html-webpack-plugin": "^2.30.1",
     "path": "^0.12.7",
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
   },
   "dependencies": {}
 }
