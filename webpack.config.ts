@@ -1,7 +1,11 @@
+const {AureliaPlugin} = require('aurelia-webpack-plugin');
+import * as HtmlWebpackPlugin from 'html-webpack-plugin';
 import * as webpack from 'webpack';
 import * as path from 'path';
 
 const outputDirectory = 'dist';
+const sourceDirectory = 'src';
+const nodeModuleDirectory = path.resolve(__dirname, 'node_modules');
 
 const webpackConfig: webpack.Configuration = {
     entry: 'aurelia-bootstrapper',
@@ -27,14 +31,23 @@ const webpackConfig: webpack.Configuration = {
         ]
     },
     resolve: {
-        extensions: ['.ts', '.js']
+        extensions: ['.ts', '.js'],
+        modules: [sourceDirectory, nodeModuleDirectory]
     },
     devServer: {
         inline: true,
         contentBase: '/',
         historyApiFallback: true,
         port: 8080
-    }
+    },
+    plugins: [
+        new AureliaPlugin({
+            aureliaApp: undefined
+        }),
+        new HtmlWebpackPlugin({
+            template: 'index.html'
+        })
+    ]
 }
 
 export default webpackConfig;
