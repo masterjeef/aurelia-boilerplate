@@ -13,7 +13,8 @@
                               | |                    
                               |_|                    
     
-# aurelia-boilerplate
+------------------------------------------------------
+
 A simple clean boiler plate for a Aurelia web application.
 
 ## Getting Started
