@@ -42,7 +42,7 @@ const webpackConfig: webpack.Configuration = {
     },
     plugins: [
         new AureliaPlugin({
-            aureliaApp: undefined
+            aureliaApp: undefined // <- https://github.com/aurelia/webpack-plugin/issues/95 - ¯\_(ツ)_/¯
         }),
         new HtmlWebpackPlugin({
             template: 'index.html'
