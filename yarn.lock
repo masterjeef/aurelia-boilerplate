@@ -459,9 +459,9 @@
   version "3.5.19"
   resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.19.tgz#1a47308819ac2d1d6d1ca4f5d800ac84924100de"
 
-"@types/bootstrap@^3.3.36":
-  version "3.3.36"
-  resolved "https://registry.yarnpkg.com/@types/bootstrap/-/bootstrap-3.3.36.tgz#5ca0b81655427398fe7c8728bccdc395069093d0"
+"@types/bootstrap@^3.3.37":
+  version "3.3.37"
+  resolved "https://registry.yarnpkg.com/@types/bootstrap/-/bootstrap-3.3.37.tgz#35a83106cb1131972977cf075a8d95cc05e895b0"
   dependencies:
     "@types/jquery" "*"
 
@@ -490,9 +490,9 @@
     "@types/html-minifier" "*"
     "@types/webpack" "*"
 
-"@types/jquery@*", "@types/jquery@^3.2.18":
-  version "3.2.18"
-  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.2.18.tgz#a1cd262034cd8c79fa4d9b2a409d8f747ac2f72f"
+"@types/jquery@*", "@types/jquery@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.3.0.tgz#6316ac20a1a13c5d521a2dc661befc7184f73f5b"
 
 "@types/node@*":
   version "9.3.0"
@@ -984,9 +984,9 @@ aws4@^1.2.1:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
-babel-loader@^7.1.2:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-7.1.2.tgz#f6cbe122710f1aa2af4d881c6d5b54358ca24126"
+babel-loader@8.0.0-beta.0:
+  version "8.0.0-beta.0"
+  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.0.0-beta.0.tgz#b85c3b52d1095949125c72c7ec1fa0fbb47a11ff"
   dependencies:
     find-cache-dir "^1.0.0"
     loader-utils "^1.0.2"
