@@ -1,9 +1,10 @@
 {
     "presets" :  [
         [
-            "@babel/presetn-env",
+            "@babel/preset-env",
             {
-                "useBuiltIns": "usage"
+                "useBuiltIns": "usage",
+                "modules": false
             }
         ]
     ]

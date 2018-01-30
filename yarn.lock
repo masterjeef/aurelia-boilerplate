@@ -179,19 +179,6 @@
     "@babel/helper-remap-async-to-generator" "7.0.0-beta.38"
     "@babel/plugin-syntax-async-generators" "7.0.0-beta.38"
 
-"@babel/plugin-proposal-class-properties@^7.0.0-beta.38":
-  version "7.0.0-beta.38"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.0.0-beta.38.tgz#3cfa2fdedf7017ee14472d6859c3fb98654c0f22"
-  dependencies:
-    "@babel/helper-function-name" "7.0.0-beta.38"
-    "@babel/plugin-syntax-class-properties" "7.0.0-beta.38"
-
-"@babel/plugin-proposal-decorators@^7.0.0-beta.38":
-  version "7.0.0-beta.38"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.0.0-beta.38.tgz#888903d395d902b763c4833e2bbf2f3d67e8155b"
-  dependencies:
-    "@babel/plugin-syntax-decorators" "7.0.0-beta.38"
-
 "@babel/plugin-proposal-object-rest-spread@7.0.0-beta.38":
   version "7.0.0-beta.38"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.0.0-beta.38.tgz#4c9bee9cd4d905bf7531a722daf430183282c000"
@@ -214,14 +201,6 @@
 "@babel/plugin-syntax-async-generators@7.0.0-beta.38":
   version "7.0.0-beta.38"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-async-generators/-/plugin-syntax-async-generators-7.0.0-beta.38.tgz#1224bcd4a5052e6e4c0eb95c96bbe9f617a119f4"
-
-"@babel/plugin-syntax-class-properties@7.0.0-beta.38":
-  version "7.0.0-beta.38"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-class-properties/-/plugin-syntax-class-properties-7.0.0-beta.38.tgz#e06a9bf6446611d78dfc71f84cddfe9219fb2829"
-
-"@babel/plugin-syntax-decorators@7.0.0-beta.38":
-  version "7.0.0-beta.38"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-decorators/-/plugin-syntax-decorators-7.0.0-beta.38.tgz#902cdc212cd3a6b10f9b1ed681a7fea0f5c87f65"
 
 "@babel/plugin-syntax-object-rest-spread@7.0.0-beta.38":
   version "7.0.0-beta.38"
@@ -454,10 +433,6 @@
     esutils "^2.0.2"
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
-
-"@types/bluebird@^3.5.19":
-  version "3.5.19"
-  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.19.tgz#1a47308819ac2d1d6d1ca4f5d800ac84924100de"
 
 "@types/bootstrap@^3.3.37":
   version "3.3.37"
@@ -1494,6 +1469,10 @@ cookie@0.3.1:
 copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
+
+core-js@^2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.3.tgz#8acc38345824f16d8365b7c9b4259168e8ed603e"
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -4077,6 +4056,10 @@ regenerate-unicode-properties@^5.1.1:
 regenerate@^1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.3.3.tgz#0c336d3980553d755c39b586ae3b20aa49c82b7f"
+
+regenerator-runtime@^0.11.1:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
 
 regenerator-transform@^0.12.3:
   version "0.12.3"

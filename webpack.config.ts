@@ -27,7 +27,10 @@ const webpackConfig: webpack.Configuration = {
             },
             {
                 test: /\.ts?$/,
-                use: ['babel-loader', 'ts-loader']
+                use: [
+                    {loader: 'babel-loader'},
+                    {loader: 'ts-loader'}
+                ]
             }
         ]
     },
@@ -42,10 +45,11 @@ const webpackConfig: webpack.Configuration = {
         port: 8080
     },
     plugins: [
+        new AureliaPlugin(),
         new HtmlWebpackPlugin({
-            template: 'index.html'
+            template: 'index.html',
+            metadata: {}
         }),
-        new AureliaPlugin()
     ]
 }
 

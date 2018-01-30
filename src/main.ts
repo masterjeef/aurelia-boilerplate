@@ -1,12 +1,11 @@
-import { Aurelia } from 'aurelia-framework';
-import { bootstrap } from 'aurelia-bootstrapper';
+import { PLATFORM, Aurelia } from 'aurelia-framework';
 
 export async function configure(aurelia: Aurelia) {
-    console.log('configure');
-
     aurelia.use
         .standardConfiguration()
-        .developmentLogging();
+        .developmentLogging()
+        .feature(PLATFORM.moduleName('view-resources/index'));
 
-    aurelia.start().then(() => aurelia.setRoot());
+    await aurelia.start();
+    await aurelia.setRoot(PLATFORM.moduleName('app/app'));
 }
