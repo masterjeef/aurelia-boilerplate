@@ -2,6 +2,6 @@ import { FrameworkConfiguration, PLATFORM } from "aurelia-framework";
 
 export function configure(config: FrameworkConfiguration) {
     config.globalResources([
-        // PLATFORM.moduleName('./path-to-your-module')
+        PLATFORM.moduleName('./elements/ascii-logo/ascii-logo')
     ]);
 }
