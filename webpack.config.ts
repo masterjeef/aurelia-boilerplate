@@ -48,10 +48,10 @@ const webpackConfig: webpack.Configuration = {
     plugins: [
         new AureliaPlugin(),
         new HtmlWebpackPlugin({
-            template: 'index.html',
+            template: './src/assets/index.html',
             metadata: {}
         }),
-        new FaviconsWebpackPlugin('./src/assets/favicon.png')
+        new FaviconsWebpackPlugin('./src/assets/img/favicon.png')
     ]
 }
 
