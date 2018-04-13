@@ -4,8 +4,8 @@ export async function configure(aurelia: Aurelia) {
     aurelia.use
         .standardConfiguration()
         .developmentLogging()
-        .feature(PLATFORM.moduleName('view-resources/index'));
+        .feature(PLATFORM.moduleName('resources/index'));
 
     await aurelia.start();
-    await aurelia.setRoot(PLATFORM.moduleName('app/app'));
+    await aurelia.setRoot(PLATFORM.moduleName('app'));
 }
