@@ -1,4 +1,5 @@
 const { AureliaPlugin } = require('aurelia-webpack-plugin');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 import * as HtmlWebpackPlugin from 'html-webpack-plugin';
 import * as webpack from 'webpack';
 import * as path from 'path';
@@ -50,6 +51,7 @@ const webpackConfig: webpack.Configuration = {
             template: 'index.html',
             metadata: {}
         }),
+        new FaviconsWebpackPlugin('./src/assets/favicon.png')
     ]
 }
 
