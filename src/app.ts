@@ -1,3 +1,4 @@
+import 'app.scss';
 import { autoinject } from 'aurelia-framework';
 
 @autoinject()

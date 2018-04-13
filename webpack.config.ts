@@ -32,6 +32,33 @@ const webpackConfig: webpack.Configuration = {
                     {loader: 'babel-loader'},
                     {loader: 'ts-loader'}
                 ]
+            },
+            {
+                test: /\.scss?$/,
+                use: [
+                    {
+                        loader: "style-loader",
+                        options: { sourceMap: true },
+                    },
+                    {
+                        loader: "css-loader",
+                        options: { importLoaders: 1, sourceMap: true }
+                    },
+                    {
+                        loader: "postcss-loader",
+                        options: { sourceMap: true }
+                    },
+                    {
+                        loader: "resolve-url-loader"
+                    },
+                    {
+                        loader: "sass-loader",
+                        options: {
+                            sourceMap: true,
+                            includePaths: [path.resolve("./node_modules")],
+                        }
+                    }
+                ]
             }
         ]
     },
